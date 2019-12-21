@@ -1,0 +1,1 @@
+let navbar = new NavBar('Accueil',new Menu('Menu','Connexion','Recherche', 'Parainage','Donation'),new Services('Services','Information','Location','Assistance'),'Les évènements','Visite Virtuelle (audio)','Visite Virtuelle (vidéo)','Contact');

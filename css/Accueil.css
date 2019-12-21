@@ -1,0 +1,9 @@
+article {
+    position: relative;
+    width: 90%;
+    background: white;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 20px black;
+    opacity: 0.9;
+}
