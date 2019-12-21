@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="../css/Header.css">
     <link rel="stylesheet" href="../css/Services.css">
     <link rel="stylesheet" href="../css/bootstrap-local/bootstrap.min.css">
-    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-    <script src="../css/bootstrap-local/bootstrap.min.js"></script>
-
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+          integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+          crossorigin=""/>
 </head>
 <body>
 
-<img src="../src/loutre.jpg" class="bg">
+<img src="../src/img/loutre.jpg" class="bg">
 
 <header>
     <nav class="navbar navbar-expand-lg   navbar-light bg-light">
@@ -20,27 +20,53 @@
 </header>
 
 <section id="information">
+    <h3>Informations</h3>
+    <hr>
     <p>Parc zoologique de Sainte Croix a été créé en 1980</p>
+    <p>Parc zoologique de la Palmyre a été créé en 1966</p>
+    <p>Parc zoologique de Peaugres a été créé en 1974</p>
 </section>
 
 <section id="assistance">
     <div id="infoSainteCroix">
+        <h4>Sainte Croix</h4>
+        <hr>
         <p>Téléphone : 03 87 03 95 36</p>
         <p>Email : parc.stecroix@wanadoo.fr</p>
         <p>Site web :<a href="www.parcsaintecroix.com"> Sainte Croix</a></p>
     </div>
+    <div id="infoPalmyre">
+        <h4>Palmyre</h4>
+        <hr>
+        <p>Téléphone : 05 46 23 62 97</p>
+        <p>Email : admin@zoo-palmyre.fr</p>
+        <p>Site web :<a href="https://www.zoo-palmyre.fr/fr"> Palmyre</a></p>
+    </div>
+    <div id="infoPeaugres">
+        <h4>Peaugres</h4>
+        <hr>
+        <p>Téléphone : 04 75 33 77 97</p>
+        <p>Email : safari@safari-peaugres.com</p>
+        <p>Site web :<a href="https://www.safari-peaugres.com/"> Peaugres</a></p>
+    </div>
 </section>
 
 <section id="localisation">
-
+    <div id="mapid"></div>
 </section>
 
 
 </body>
 
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="../css/bootstrap-local/bootstrap.min.js"></script>
 <script type="text/javascript" src="../js/jsZoo.js"></script>
 <script type="text/javascript" src="../js/model.js"></script>
 <script type="text/javascript" src="../Controller/NavBar.js"></script>
 
+<script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin=""></script>
+<script type="text/javascript" src="../js/googleMap.js"></script>
 
 </html>
