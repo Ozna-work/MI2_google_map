@@ -26,3 +26,12 @@ section {
     50% {opacity: 1.0;}
     100% {opacity: 0.0;}
 }
+
+h4, i {
+    display: inline;
+}
+i {
+    padding-top: 5px;
+    padding-right: 10px;
+    float:right;
+}
